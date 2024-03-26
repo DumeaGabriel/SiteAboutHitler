@@ -11,15 +11,17 @@ body {
 }
 
 .contetnt {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 .pair{
-    margin:auto
+    display: flex;
+
 }
 .pic {
     margin-left: auto;
+    margin-left: 10px;
     max-height: 50%;
     margin-top: 10px;
     border: 1px solid #ccc; /* Border around each image */
@@ -28,8 +30,8 @@ body {
 }
 
 .pic img {
-    width: 100%;
-    height: auto;
+    width: 30vw;
+    height: 30vh;
 }
 
 
