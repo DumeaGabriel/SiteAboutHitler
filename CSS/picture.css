@@ -25,10 +25,10 @@ body {
     margin-left: 10px;
     max-height: 70%;
     margin-top: 10px;
-    border: 1px solid #ccc; /* Border around each image */
-    border-radius: 8px; /* Rounded corners for the images */
-    overflow: hidden; /* Hide overflow to prevent image overflow */
-    position: relative; /* Set position to relative for absolute positioning of name */
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+    overflow: hidden; 
+    position: relative; 
 }
 
 .pic img {
